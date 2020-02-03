@@ -16,6 +16,7 @@ class movingAvg
         int getAvg();
         int getCount() {return m_nbrReadings;}
         void reset();
+        int getRange();
 
     private:
         int m_interval;     // number of data points for the moving average
