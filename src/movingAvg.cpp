@@ -45,7 +45,7 @@ void movingAvg::reset()
     m_next = 0;
 }
 
-// get the difference between mininum and maximum values in buffer
+// get the difference between the mininum and maximum values in buffer
 int movingAvg::getRange()
 {
     if (m_nbrReadings > 0)
